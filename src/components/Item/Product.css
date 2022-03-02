@@ -1,0 +1,22 @@
+.product {
+    padding: 0;
+}
+.product .card {
+    margin: 25px;
+}
+.product .card .card-title {
+    height: 50px;
+}
+.product .card .btn {
+    width: 100%;
+    background-color: transparent;
+    color: #0098d3;
+    border-color: #0098d3;
+    border-radius: 50px;
+}
+.product .card .btn:hover, .product .card .btn:active, .product .card .btn:focus {
+    background-color: #0098d3 !important;
+    border-color: #0098d3;
+    color: #fff;
+    box-shadow: none !important;
+}

@@ -1,0 +1,22 @@
+.slider-movies {
+    height: 500px;
+}
+.slider-movies__movie {
+    height: 510px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slider-movies__movie-info {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 40px;
+}
+.slider-movies__movie-info > div {
+    background-color: #a7a7a7;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+}

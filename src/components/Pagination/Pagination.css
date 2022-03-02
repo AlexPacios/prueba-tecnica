@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 10px 0;
+}
+.pagination .ui.pagination.menu {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.pagination .ui.pagination.menu .item {
+  background-color: #252e4e;
+  border-radius: 50% !important;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4px;
+}
+.pagination .ui.pagination.menu .item::before {
+  display: none;
+}
+.pagination .ui.pagination.menu .item:focus {
+  outline: none !important;
+}
+.pagination .ui.pagination.menu .item:active {
+  background-color: #808080;
+  color: #fff;
+}

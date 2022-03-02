@@ -1,0 +1,14 @@
+.top-menu .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-menu .navbar-brand svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.top-menu .navbar-brand h2 {
+    margin: 0;
+    font-size: 22px;
+}
